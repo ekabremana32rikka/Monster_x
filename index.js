@@ -4559,11 +4559,11 @@ if (isBanned) return reply(mess.only.benned)
 					break
 				//frendowner
 				case `addadmin`:
-                   if (!isOwner) return reply('Perintah ini hanya bisa di gunakan oleh Owner ICHI!', id)
+                   if (!isOwner) return reply('Perintah ini hanya bisa di gunakan oleh Owner Brema!', id)
                    for (let i = 0; i < mentionedJidList.length; i++) {
                    adminNumber.push(mentionedJidList[i])
                    fs.writeFileSync('./lib/database/admin.json', JSON.stringify(adminNumber))
-                   reply('Success Menambahkan Admin ICHI!')
+                   reply('Success Menambahkan Admin Brema!')
 				   }
                    break
 				case 'wait':
