@@ -47,7 +47,7 @@ const { listsay } = require('./src/listsay')
 const { cekvip } = require('./src/cekvip')
 const { daftarvip } = require('./src/daftarvip')
 const { iklan } = require('./src/iklan')
-const { daftatvip } = require('./src/daftarvip')
+const { daftarvip } = require('./src/daftarvip')
 const { funmenu } = require('./src/funmenu')
 const { mediamenu } = require('./src/mediamenu')
 const { othermenu } = require('./src/othermenu')
@@ -77,11 +77,11 @@ ban = []
 const vcard = 'BEGIN:VCARD\n' // JAN DI UBAH
             + 'VERSION:3.0\n' // JAN DI UBAH
             + 'FN: OWNER GANS\n' // NAMA KONTAK OWNER
-            + 'ORG:Creator ICHI;\n' // NAMA CREATOR
+            + 'ORG:Creator Brema;\n' // NAMA CREATOR
             + 'TEL;type=CELL;type=VOICE;waid=62895622957611:+62-816-5466-368\n' // NOMER HP LU
             + 'END:VCARD'
 prefix = '!'
-blocked = ['6289655478810@s.whatsapp.net']
+blocked = ['08527756353@s.whatsapp.net']
 
 function kyun(seconds){
   function pad(s){
