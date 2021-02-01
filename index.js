@@ -200,11 +200,11 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6285277566353@s.whatsapp.net"],["6283846382999@s.whatsapp.net"]// replace this with your number
-			const mod = [ownerNumber,"6285277566353@s.whatsapp.net"],["628384638299@.whatsapp.net"]
-			const adminbotnumber = ["6285277566353@s.whatsapp.net"],["6283846382999@.whatsapp.net"]
-			const frendsowner = ["6285277566353@s.whatsapp.net"],["6283846382999@.whatsapp"]
-			const premium = ["6285277566353@s.whatsapp.net"],["6283846382999@.whatsapp"]
+			const ownerNumber = ["6285277566353@s.whatsapp.net"]// replace this with your number
+			const mod = [ownerNumber,"6285277566353@s.whatsapp.net"]
+			const adminbotnumber = ["6285277566353@s.whatsapp.net"]
+			const frendsowner = ["6285277566353@s.whatsapp.net"]
+			const premium = ["6285277566353@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
