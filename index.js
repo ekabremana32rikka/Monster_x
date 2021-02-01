@@ -200,11 +200,11 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["62895622957611@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"62895622957611@s.whatsapp.net"]
-			const adminbotnumber = ["62895622957611@s.whatsapp.net"]
-			const frendsowner = ["62895622957611@s.whatsapp.net"]
-			const premium = ["62895622957611@s.whatsapp.net"]
+			const ownerNumber = ["6285277566353@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"6285277566353@s.whatsapp.net"]
+			const adminbotnumber = ["6285277566353@s.whatsapp.net"]
+			const frendsowner = ["6285277566353@s.whatsapp.net"]
+			const premium = ["6285277566353@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
@@ -313,10 +313,10 @@ async function starts() {
 					if (!isPublic) return reply(mess.only.public)
 					client.sendMessage(from, othermenu(prefix), text, { quoted: mek })
 					break
-					case 'ichigroup':
+					case 'AttackOnTitan':
 					if (isBanned) return reply(mess.only.benned)    
 					if (!isUser) return reply(mess.only.userB)
-					client.sendMessage(from, '*ICHI GROUP*\n\nLink : https://chat.whatsapp.com/EIMG7qS9r0G8K45PfmLNxT*', text, { quoted: mek })
+					client.sendMessage(from, '*ICHI GROUP*\n\nLink :  *', text, { quoted: mek })
 					break
 					case 'funmenu':
 					if (isBanned) return reply(mess.only.benned)    
@@ -436,7 +436,7 @@ async function starts() {
                                         teks = `${anu.display_url}`
                                         ranpp = getRandom('.png')
                                         ranop = getRandom('.webp')
-                                        anu1 = await fetchJson(`https://api.vhtear.com/removebgwithurl?link=${teks}&apikey=Beli biar work`, {method: 'get'})
+                                        anu1 = await fetchJson(`https://api.itsmeikyxsec404.xyz/ =Gratis`, {method: 'get'})
                                          exec(`wget ${anu1.result.image} -O ${ranpp} && ffmpeg -i ${ranp} -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${ranop}`, (err) => {
                                                 fs.unlinkSync(ranp)
                                                 if (err) return reply(mess.error.stick)
