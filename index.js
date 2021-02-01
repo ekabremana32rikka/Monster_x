@@ -78,7 +78,7 @@ const vcard = 'BEGIN:VCARD\n' // JAN DI UBAH
             + 'VERSION:3.0\n' // JAN DI UBAH
             + 'FN: OWNER GANS\n' // NAMA KONTAK OWNER
             + 'ORG:Creator Brema;\n' // NAMA CREATOR
-            + 'TEL;type=CELL;type=VOICE;waid=62895622957611:+62-816-5466-368\n' // NOMER HP LU
+            + 'TEL;type=CELL;type=VOICE;waid=62895622957611:+62-838-4638-2999\n' // NOMER HP LU
             + 'END:VCARD'
 prefix = '!'
 blocked = ['08527756353@s.whatsapp.net']
