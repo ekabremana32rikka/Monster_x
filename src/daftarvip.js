@@ -2,16 +2,16 @@ const daftarvip = (prefix) => {
 	return `
 	
 *HARGA DAFTAR VIP :*
--Rp. 5K > Akses Fitur ViP
--Rp. 10K > Fitur VIP + Masukin Bot KeGrup Kalian!
+-Rp. 3K > Akses Fitur ViP Bagi yang baik ama gw brema
+-Rp. 5K > Fitur VIP + Masukin Bot KeGrup Kalian!
 
 *JIKA INGIN DAFTAR VIP :*
 *Chat Owner BOT :*
-_wa.me/628165466368 atau ketik *${prefix}owner*
+_wa.me/625277566353 atau ketik *${prefix}owner*
 
 *NOTE*
 
 *GRUP WHATSAPP BOT :*
-_https://chat.whatsapp.com/G8Lb8t0qG0iLFLxOCPY5hb_ `
+_https://chat.whatsapp.com/C2mS8MdY9540rATja6UVRo_ `
 }
 exports.daftarvip = daftarvip
