@@ -78,7 +78,7 @@ const vcard = 'BEGIN:VCARD\n' // JAN DI UBAH
             + 'VERSION:3.0\n' // JAN DI UBAH
             + 'FN: OWNER GANS\n' // NAMA KONTAK OWNER
             + 'ORG:Creator Brema;\n' // NAMA CREATOR
-            + 'TEL;type=CELL;type=VOICE;waid=62895622957611:+62-838-4638-2999\n' // NOMER HP LU
+            + 'TEL;type=CELL;type=VOICE;waid=6285277566353:+62-838-4638-2999\n' // NOMER HP LU
             + 'END:VCARD'
 prefix = '!'
 blocked = ['08527756353@s.whatsapp.net']
@@ -127,7 +127,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://e.top4top.io/p_1837nveac0.jpg'
 				}
-				teks = `[ NEW MEMBER IN GROUP _*${mdata.subject}*_ ] \n*_____________*\n@${num.split('@')[0]}\nSELAMAT BERGABUNG\n *_____________*\nMoga betah Di group!`
+				teks = `[ NEW MEMBER IN GROUP _*${mdata.subject}*_ ] \n*_____________*\n@${num.split('@')[0]}\nSELAMAT BERGABUNG\n *_____________*\nMoga betah Di group.... Kalau gk betah gantung diri hehehe..!`
 				let buffer = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buffer, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -193,7 +193,7 @@ async function starts() {
 					benned: 'Anda Ke Band Silahkan Hubungi Owner Agar Membuka Band Anda',
 					ownerG: '[❗] Lu spe owner? ini fitur khusus owner njierrr ❌',
 					ownerB: '[❗] Lu spe owner? ini fitur khusus owner njierrr ❌',
-					userB: `──「 DAFTAR 」──\nHalo Kak !\nMaaf Kak Kamu belum Terdaftar Sebagai Teman Ichi Daftar Untuk Berteman Dengan Ici bot dengam cara, \n\nCommand : ${prefix}daftar nama|umur\nContoh : ${prefix}daftar ichi|17\n\n──「 ICHI BOT 」──`,
+					userB: `──「 DAFTAR 」──\nHalo Kak !\nMaaf Kak Kamu belum Terdaftar Sebagai Teman Brema Daftar Untuk Berteman Dengan Ici bot dengam cara, \n\nCommand : ${prefix}daftar nama|umur\nContoh : ${prefix}daftar ichi|17\n\n──「 ICHI BOT 」──`,
 					admin: '[❗] Perintah ini hanya bisa di gunakan oleh admin group! ❌',
 					Badmin: ' [❗] Perintah ini hanya bisa di gunakan ketika bot menjadi admin! ❌',
 				}
@@ -575,7 +575,7 @@ async function starts() {
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = '╭────「 *PREMIUM👑* 」──*\n│+ *Number* : \n│+ *Expired*: *30 Days*\n│+ *Status*: *ACTIVE*\n│ Thx for Upgrade to Premium🥰\n*╰──────「 *ICHI* 」────'
+						teks = '╭────「 *PREMIUM👑* 」──*\n│+ *Number* : \n│+ *Expired*: *30 Days*\n│+ *Status*: *ACTIVE*\n│ Thx for Upgrade to Premium🥰\n*╰──────「 *BREMA* 」────'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 						}
@@ -605,7 +605,7 @@ async function starts() {
 					client.sendMessage(from, mentioned)
 				    }
 					break
-					case 'ICHIadmin':
+					case 'BREMAadmin':
 					if (isBanned) return reply(mess.only.benned)    
 					if (!isUser) return reply(mess.only.userB)
 					tod = await getBuffer(`https://i.ibb.co/CbZg6G5/IMG-20210106-WA0040.jpg`)
