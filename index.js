@@ -47,7 +47,7 @@ const { listsay } = require('./src/listsay')
 const { cekvip } = require('./src/cekvip')
 const { daftarvip } = require('./src/daftarvip')
 const { iklan } = require('./src/iklan')
-
+const {Jangan Lupa Donasi Ke Gw cuk}
 const { funmenu } = require('./src/funmenu')
 const { mediamenu } = require('./src/mediamenu')
 const { othermenu } = require('./src/othermenu')
